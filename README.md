@@ -52,8 +52,18 @@ h1>🛠 DevRadar API</h1>
 `POST /orphanages`
 
 ```
-
+{
+	"name": "happy",
+	"latitude": 0,
+	"longitude": 0,
+	"about": "example test",
+	"instructions": "example",
+	opening_hours: "example",
+	open_on_weekends: true
+}
 ```
+
+Need send file images in an array
 
 <h3>Response</h3>
 
